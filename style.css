@@ -225,3 +225,42 @@ main {
     border-radius: 6px;
     max-width: 300px;
 }
+
+body {
+    front-family: Arial, sans-serif;
+    background-color: #f7f3ef;
+    color: #3b2f2f;
+    margin: 0;
+}
+
+main: {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: left; /* TEXT STANGA */
+}
+
+/* TITLURI */
+h1, h2 {
+    color: #5a3825;
+    margin-bottom: 15px;
+}
+
+/* SECTIUNI */
+section {
+    margin-bottom: 40px;
+}
+
+/* PRODUSE */
+.produse ul {
+    list-style: none;
+    padding: 0;
+}
+
+.produse li {
+    background-color: #e6d3c0;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 300px;
+}
