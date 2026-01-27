@@ -182,4 +182,24 @@ ul li {
 ul li:hover {
     color: #6f4e37;
     cursor: pointer;
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: #6f4e37;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.produse {
+    list-style: none;
+    padding: 0;
+}
+
+.produse li {
+    padding: 5px 0;
 }
