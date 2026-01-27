@@ -203,3 +203,25 @@ ul li:hover {
 .produse li {
     padding: 5px 0;
 }
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.produse {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.produse li {
+    background-color: #f0e6de;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 300px;
+}
