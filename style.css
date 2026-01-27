@@ -290,9 +290,10 @@ section {
 .menu a {
     color: white;
     text-decoration: none;
-    front-weight: bold;
+    font-weight: bold;
 }
 
 .menu a:hover {
     text-decoration: underline;
 }
+
