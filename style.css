@@ -303,6 +303,44 @@ header.header {
     display: none;
 }
 
+/* LISTA PRODUSE */
+ul.produse {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FIECARE PRODUS */
+ul.produse li {
+    background-color: #e6d3c0;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* IMAGINEA PRODUSULUI */
+ul.produse li img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* FORMULARUL DIN PRODUS */
+ul.produse li form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
 
 
 
