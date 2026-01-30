@@ -9,8 +9,8 @@ const form = document.getElementById('contactform');
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    const name = document.getElementById('Martinel').value;
-    const email = document.getElementById('oana_vod@yahoo.com').value;
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
 
     if (email === '' || name === '') {
         alert('Te rog completeaza toate campurile.');
@@ -24,4 +24,5 @@ function spuneSalut() {
     alert("Bine ao venit la Cafeneaua Martinel!");
 
 }
+
 
