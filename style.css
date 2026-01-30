@@ -330,7 +330,7 @@ ul.produse {
 
 /* FIECARE PRODUS */
 ul.produse li {
-    background-color: #e6d3c0;
+    background-color: #ffffff;
     color: #333333;
     margin: 10px 0;
     padding: 15px;
@@ -356,6 +356,15 @@ ul.produse li form {
     gap: 5px;
     margin-top: 10px;
 }
+
+/* PENTRU NUMELE PRODUSELOR */
+ul.produse li 2 {
+    color: #333333;
+    margin: 5px 0;
+    text-align: center;
+}
+
+
 
 
 
