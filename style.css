@@ -147,29 +147,6 @@ ul li {
     font-size: 18px;
 }
 
-.contact {
-    background-color: white;
-    padding: 30px;
-    margin-top: 40px;
-    border-radius: 8px;
-    max-width: 500px;
-}
-
-.contact input,
-.contact textarea {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-
-.contact button {
-    background-color: #6f4e37;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
 .top-bar button:hover {
     background-color: #c19a6b;
     transform: scale(1.05);
@@ -320,6 +297,7 @@ section {
 .contact-form textarea {
     resize: vertical;
 }
+
 
 
 
