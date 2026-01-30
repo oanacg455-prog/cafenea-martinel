@@ -360,9 +360,11 @@ ul.produse li form {
 /* PENTRU NUMELE PRODUSELOR */
 ul.produse li 2 {
     color: #333333;
+    font-size: 0.9em;
     margin: 5px 0;
     text-align: center;
 }
+
 
 
 
