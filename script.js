@@ -4,10 +4,10 @@ button.addEventListener('click', function () {
     alert('Comanda ta a fost inregistrata. ☕');
 });
 
-const form = document.getElementById('contactForm');
+const form = document.getElementById('contactform');
 
 form.addEventListener('submit', function (e) {
-    e.preventDefault
+    e.preventDefault();
 
     const name = document.getElementById('Martinel').value;
     const email = document.getElementById('oana_vod@yahoo.com').value;
@@ -22,4 +22,5 @@ form.addEventListener('submit', function (e) {
 
 function spuneSalut() {
     alert("Bine ao venit la Cafeneaua Martinel!");
+
 }
