@@ -14,9 +14,6 @@ header{
     text-align: center; 
 }
 
-header h1 {
-    margin: 0;
-}
 header h2 {
     margin: 10px;
     font-weight: normal;
@@ -55,6 +52,7 @@ a:hover {
 
 /*IMAGINE */
 img {
+    color: white;
     max-width: 100%;
     margin-top: 20px;
     border-radius: 8px;
@@ -89,7 +87,8 @@ footer {
     }
 }
 
-.imagine img{
+.imagine img {
+    color: white;
     width: 100%;
     max-width: 400px;
     height: auto
@@ -299,6 +298,7 @@ section {
     padding: 10px 20px;
     cursor: pointer;
 }
+
 
 
 
