@@ -330,8 +330,8 @@ ul.produse {
 
 /* FIECARE PRODUS */
 ul.produse li {
-    background-color: #ffffff;
-    color: #;
+    background-color: #e6d3c0;
+    color: #333333;
     margin: 10px 0;
     padding: 15px;
     border-radius: 8px;
@@ -356,6 +356,7 @@ ul.produse li form {
     gap: 5px;
     margin-top: 10px;
 }
+
 
 
 
