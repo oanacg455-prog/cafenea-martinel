@@ -310,6 +310,9 @@ ul.produse {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
 }
 
 /* FIECARE PRODUS */
@@ -326,7 +329,7 @@ ul.produse li {
 
 /* IMAGINEA PRODUSULUI */
 ul.produse li img{
-    max-width: 100%;
+    mwidth: 100%;
     height: auto;
     border-radius: 4px;
     margin-bottom: 10px;
@@ -338,7 +341,9 @@ ul.produse li form {
     display: flex;
     justify-content: center;
     gap: 5px;
+    margin-top: 10px;
 }
+
 
 
 
