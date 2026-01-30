@@ -337,4 +337,18 @@ section {
     background-color: #5c3622;
 }
 
+/* ===== FIX CONTACT (fortam coloana) ===== */
+#contact .contact-form {
+    display: flex;
+    flex-direction: column !important;
+    gap: 15px;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea,
+#contact .contact-form button {
+    width: 100% !important;
+}
+
+
 
