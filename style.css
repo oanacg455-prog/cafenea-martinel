@@ -299,11 +299,6 @@ section {
     cursor: pointer;
 }
 
-/* ascunde primul meniu de navigare din header */
-header nav:first-of-type {
-    display: none;
-}
-
 
 
 
