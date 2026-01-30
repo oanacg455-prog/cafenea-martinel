@@ -331,7 +331,7 @@ ul.produse {
 /* FIECARE PRODUS */
 ul.produse li {
     background-color: #ffffff;
-    color: #333333
+    color: #333333;
     margin: 10px 0;
     padding: 15px;
     border-radius: 8px;
@@ -343,8 +343,8 @@ ul.produse li {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.ul produse li h2,
-.ul produse li p {
+ul.produse li h2,
+ul.produse li p {
     color: #333333;
 }
 
@@ -356,6 +356,7 @@ ul.produse li form {
     gap: 5px;
     margin-top: 10px;
 }
+
 
 
 
