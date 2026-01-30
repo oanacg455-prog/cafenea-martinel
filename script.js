@@ -6,7 +6,7 @@ button.addEventListener('click', function () {
 
 const form = document.getElementById('contactform');
 
-form.addEventListener('submit', function (e) {
+form.addEventListener('submit', function(e) {
     e.preventDefault();
 
     const name = document.getElementById('Martinel').value;
@@ -24,3 +24,4 @@ function spuneSalut() {
     alert("Bine ao venit la Cafeneaua Martinel!");
 
 }
+
