@@ -55,7 +55,6 @@ a:hover {
 
 /*IMAGINE */
 img {
-    color: white;
     max-width: 100%;
     margin-top: 20px;
     border-radius: 8px;
@@ -91,7 +90,6 @@ footer {
 }
 
 .imagine img{
-    color: white;
     width: 100%;
     max-width: 400px;
     height: auto
@@ -302,6 +300,7 @@ section {
     padding: 10px 20px;
     cursor: pointer;
 }
+
 
 
 
