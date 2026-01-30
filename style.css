@@ -297,3 +297,44 @@ section {
     text-decoration: underline;
 }
 
+/* ===== CONTACT ===== */
+#contact {
+    background-color #ffffff;
+    margin: 60px auto;
+    padding: 60px 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    boc-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+.contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #7b4a2e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #5c3622;
+}
+
+
