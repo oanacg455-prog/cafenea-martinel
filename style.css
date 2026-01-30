@@ -298,9 +298,11 @@ section {
     padding: 10px 20px;
 }
 
+/*Ascunde prima bara de navigatie din header */
 header nav:first-of-type {
-    display: none; /*ascunde prima bara*/
+    display: none;
 }
+
 
 
 
