@@ -333,7 +333,7 @@ ul.produse li {
     background-color: #ffffff;
     color: #333333;
     margin: 10px 0;
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
     max-width: 400px;
     box-sizing: border-box;
@@ -364,6 +364,7 @@ ul.produse li 2 {
     margin: 5px 0;
     text-align: center;
 }
+
 
 
 
