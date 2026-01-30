@@ -87,7 +87,7 @@ footer {
     }
 }
 
-.imagine img {
+.imagine img{
     color: white;
     width: 100%;
     max-width: 400px;
@@ -298,6 +298,7 @@ section {
     padding: 10px 20px;
     cursor: pointer;
 }
+
 
 
 
