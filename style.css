@@ -298,6 +298,14 @@ section {
     resize: vertical;
 }
 
+.contact-form button {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
 
 
 
