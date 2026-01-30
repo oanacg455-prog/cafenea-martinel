@@ -298,6 +298,11 @@ section {
     padding: 10px 20px;
 }
 
+header nav:first-of-type {
+    display: none; /*ascunde prima bara*/
+}
+
+
 
 
 
