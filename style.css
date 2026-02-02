@@ -287,15 +287,16 @@ section {
 }
 
 .contact {
-    background-color: #b24b4b;
-    padding: 0px;
+    background-color: white;
+    color: white;
+    padding: 60 px 20px;
+    margin-top: 0;
     text-align: center;
 }
 
 .contact-form {
-    max-width: 400px;
-    margin: 0 auto;
-    display: block;
+    max-width: 500px;
+    margin: 30 px auto 0;
 }
 
 .contact-form input,
@@ -387,6 +388,7 @@ section {
         transform: translateY(0);
     }
 }
+
 
 
 
