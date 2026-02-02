@@ -365,6 +365,18 @@ ul.produse li 2 {
     text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.top-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
 
 
 
