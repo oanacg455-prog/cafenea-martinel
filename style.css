@@ -287,10 +287,8 @@ section {
 }
 
 .contact {
-    background-color: white;
     color: white;
     padding: 60 px 20px;
-    margin-top: 0;
     text-align: center;
 }
 
@@ -388,6 +386,7 @@ section {
         transform: translateY(0);
     }
 }
+
 
 
 
