@@ -6,7 +6,7 @@ button.addEventListener('click', function () {
 
 const form = document.getElementById('contactform');
 
-form.addEventListener('submit', function(e) {
+contactForm.addEventListener('submit', function(e) {
     e.preventDefault();
 
     const name = document.getElementById('name').value;
@@ -21,8 +21,30 @@ form.addEventListener('submit', function(e) {
 })
 
 function spuneSalut() {
-    alert("Bine ao venit la Cafeneaua Martinel!");
-
+    alert('Bine ai venit la Cafeneaua Martinel!');
 }
+
+const form = document.querySelector('.contact-form');
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const inputs = form.querySelectorAll('input, textarea');
+    let valid = true;
+
+    inputs.forEach(input => {
+        if (input.value.trim() === '') {
+            valid = false;
+        }
+    });
+
+    if (!valid) {
+        alert("Te rog completeaza toate campurile.");
+    } else {
+        alert("Mesajul tau a fost trimis cu succes!");
+        form.reset();
+    }
+});
+
 
 
